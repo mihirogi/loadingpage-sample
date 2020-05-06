@@ -16,7 +16,10 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
-      "@loadingpage-sample/api-interfaces": ["libs/api-interfaces/src/index.ts"]
+      "@loadingpage-sample/api-interfaces": [
+        "libs/api-interfaces/src/index.ts"
+      ],
+      "@loadingpage-sample/feature": ["libs/feature/src/index.ts"]
     }
   },
   "exclude": ["node_modules", "tmp"]
