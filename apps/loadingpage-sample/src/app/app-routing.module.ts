@@ -2,12 +2,11 @@ import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 
 const routes: Routes = [
-    {
-        path:'',
-        loadChildren: ()=> import('@loadingpage-sample/feature').then(
-            module => module.FeatureModule
-        )
-    }
+  {
+    path: '',
+    loadChildren: () =>
+      import('@loadingpage-sample/feature').then(module => module.FeatureModule)
+  }
 ];
 
 @NgModule({
